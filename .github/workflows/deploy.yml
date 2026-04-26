@@ -21,7 +21,7 @@ jobs:
       - name: Set up GKE credentials
         uses: google-github-actions/get-gke-credentials@v1
         with:
-          cluster_name: luisgervas-cluster
+          cluster_name: final-project-cluster
           location: us-central1-a
           project_id: examen-td-494215
 
