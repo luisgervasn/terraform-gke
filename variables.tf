@@ -1,7 +1,7 @@
 
 variable "gcp-project" {
   description = "GCP project"
-  default     = "icai2025"
+  default     = "examen-td-494215"
 }
 
 variable "gcp-network" {
@@ -22,7 +22,7 @@ variable "gcp-zone" {
 variable "gcp-cluster-name" {
   description = "Cluster name"
   type        = string
-  default     = "jvherrera-cluster"
+  default     = "final-project-cluster"
 }
 
 variable "gcp-node-count" {
@@ -38,5 +38,5 @@ variable "gcp-node-size" {
 variable "gcp-bucket-name" {
   description = "Bucket Name"
   type        = string
-  default     = "jherrera-bucket"
+  default     = "final-project-bucket-milokito"
 }
